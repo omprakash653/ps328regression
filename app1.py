@@ -14,7 +14,7 @@ model = joblib.load("model.joblib")
 # PAGE CONFIGURATION
 # =========================================================
 st.set_page_config(
-    page_title="CGPA Package Predictor",
+    page_title="Student Package Predictor",
     page_icon="🎓",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -95,7 +95,7 @@ st.markdown("""
 # =========================================================
 
 st.markdown(
-    '<div class="main-title">🎓 CGPA to Package Predictor</div>',
+    '<div class="main-title">🎓 CGPA to Package Predictor of Students</div>',
     unsafe_allow_html=True
 )
 

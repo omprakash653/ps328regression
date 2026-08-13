@@ -3,3 +3,4 @@ pandas
 matplotlib
 joblib
 streamlit
+scikit-learn
